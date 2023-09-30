@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Roboto:ital@0;1&display=swap');
+*{
+   margin: 0;
+   border: 0;
+}
+.imglogo{
+   height: 15vh;
+   position: sticky;
+   top: 0;
+}
+
+body{
+    background-image: url(../assets/imagenes/cbd-1920fondooscuro.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left:2px;
+}
+.headerclass{
+   padding-left:2px;
+   margin-top: 0%;
+   background-position: top;
+   font-size: 1.25rem;
+   background-color:rgb(0, 0, 0) ;
+   position: sticky;
+   top: 0;}
+      .sectionnav{
+         height: 5vh;
+         text-align:right;
+         background-color: rgb(0, 0, 0);}
+         .listanav ul{
+            list-style: none;
+            display: flex;
+            justify-content:end;
+            color:rgba(249, 231, 27, 0.921);
+         }
+         .anclanav{
+            list-style:none;
+            display: flex;
+            display: inline-block;
+            justify-content: center;
+            background-position: right;
+            background-color: black;
+            text-align: left;
+            text-decoration: none;
+            color:gold;
+            font-size: 1.25rem;
+            margin-right: 10px;
+            border:0.5px solid gold;
+            padding: 5px;
+         }        
+
+          
+.main{
+      padding-left:2px;
+      color:white;
+      padding-bottom: 50px;
+   }
+   .h1{ 
+      text-align: center;
+      font-size: 2.5rem;
+      text-decoration:wavy;
+      text-shadow: 12px -9px 5px rgba(20, 21, 21, 0.73);
+      color:white;
+      /*font-family: roboto;*/
+   }
+   .h2{
+      font-size: 1.8rem;
+      padding: 0.5rem;
+      text-shadow: 12px -9px 5px rgba(20, 21, 21, 0.73);
+      color:white;
+   }
+   .parrafos{
+      font-size:1.3rem ;
+      padding: 0.2rem;
+      color:white;
+   }
+   .parrafos1{
+      font-size: 1.5rem;
+      color: gold;
+   }
+   .listasordenadas{
+      font-size: 1.3rem;
+      padding: 0.2,0.2,0.2,0.2rem;
+      color:white;
+   }
+     
+   .h3{
+      font-size: 2.5rem;
+      color: rgba(255, 255, 255, 0.997);
+      padding-top: 2rem;
+      text-shadow: 12px -9px 5px rgba(20, 21, 21, 0.73);
+      text-align: center;
+   }
+   .h3n{
+      font-size: 2.5rem;
+     /* color: rgba(255, 255, 255, 0.997);*/
+      padding-top: 2rem;
+      text-shadow: 4px -9px 4px rgba(0,0,0,0.6);
+      text-align: center;
+   
+   }
+   .h4{
+      color:white;
+      font-size: 2.5rem;
+   }
+   .tform{
+      color:gold;
+      font-size: 1.5rem;
+   }
+   .inputtype{
+      margin: 5px;
+      padding: 5px;
+      border:double rgb(29, 75, 7);
+   }
+foter{
+   padding-left:2px;
+}
+      
+ 
+         .ubicacionmapeada{
+            height: 15rem;
+            width: 15rem;
+            box-shadow: 17px -1px 22px 14px rgba(27, 31, 27, 0.77);
+            -webkit-box-shadow: 17px -1px 22px 14px rgba(33, 37, 33, 0.77);
+            -moz-box-shadow: 17px -1px 22px 14px rgba(22, 24, 22, 0.77);}
+
+            .horarios{
+               font-size:1.5rem ;
+               font-family:lato ;
+               list-style-type: none;
+               color: white;
+
+            }
+         
+            .basedepagina{
+               background-size: cover;
+               background-position: bottom;
+               margin-bottom: 0;
+            }
+
+            
+          /*  .textocopy{
+               padding-bottom: 0;
+               position:relative;
+               background-position:bottom ;
+               margin-bottom: 0;
+               font-family:Lato;
+               font-size: 1.5rem;
+               font-weight: 300;
+               color:rgb(248, 248, 248);}*/
+               .horariosli{
+                  list-style-type: none;;
+               }
+            
+            .wtsp{
+               font-size: 60px;
+               position: fixed;
+               bottom: 15px;
+               right: 15px;}
+
+
+
+  
+
+      
+   
+   
+
+  
+      
+
