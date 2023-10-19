@@ -1,0 +1,13 @@
+.h1{
+    font-size: 2rem;
+    text-align: center;
+    font-family:"Raleway", sans-serif;
+
+   }
+   .colorgold{
+    color: map-get($mapa-colores, color-gold )
+   } 
+
+   .titulos{color: map-get($mapa-colores,color-gold);}
+   .parrafos{color: map-get($mapa-colores,color-parrafo );}
+   .focus{color: map-get($mapa-colores,color-focus);}

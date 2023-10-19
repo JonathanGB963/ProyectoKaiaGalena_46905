@@ -1,0 +1,34 @@
+.footer{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 21%, rgba(41,41,43,1) 69%, rgba(8,9,9,1) 100%);
+    height: 100%;
+      .colorgold{
+        color: map-get($mapa-colores,color-gold);}  
+      .horarios{
+          font-size: 1rem;
+          border-bottom: 3px solid map-get($mapa-colores,color-gold );
+        .ubicacionmapeada { width: 200px; height:200px}}
+          .usomixin{
+            @include usomixin(column); }
+          .divicon{
+              .iconredes{
+                  a{
+                      i{
+                          font-size: 1.5rem;
+                          color:map-get($mapa-colores , color-gold);
+                          padding: 13px;
+                         /* text-decoration: none;*/
+                        &:hover{background-color: map-get($mapa-colores,color-hover);
+                        border-radius: 10px;/*
+                        animation-name: resaltar;
+                        animation-duration: 2s;
+                        animation-timing-function: ease-in-out;
+                        animation-iteration-count: infinite;
+                        transform: scaleY(1) translate (5px);*/
+                      }
+                      }
+                  }
+              }            
+          }
+    }
+  

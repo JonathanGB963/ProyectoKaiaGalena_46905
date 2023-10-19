@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,700;1,400;1,600;1,700&display=swap");
+.body {
+  font-family: "Raleway, sans-serif";
+  background: rgba(10, 10, 10, 0.9725490196);
+}
+
+.header .divnavegacion {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 21%, rgb(41, 41, 43) 69%, rgb(8, 9, 9) 100%);
+}
+.header .divnavegacion .logomarca {
+  height: 80px;
+  width: 80px;
+  border-radius: 60px;
+}
+.header .divnavegacion .navbar-nav .nav-item .nav-link {
+  color: #D4AF37;
+}
+.header .divnavegacion .navbar-nav .nav-item .nav-link:hover {
+  background-color: #000000;
+  border-radius: 6px;
+  text-decoration-color: #D4AF37;
+}
+
+.main {
+  margin-bottom: 1rem;
+  /* NO SE ESTA APLICANDO EN NOSOTROS"*/
+}
+.main .sectionimg .imggaleria img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  transition: transform 0.8s;
+}
+.main .sectionimg .imggaleria img:hover {
+  transform: translate(10px, 30px) scalex(1.2);
+}
+.main .h2-color {
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+.main .parrafos {
+  color: #E0E0E0;
+  font-size: 1rem;
+}
+.main .listasordenadas {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-family: "Lato:ital";
+  color: #E0E0E0;
+}
+.main .listasordenadas .li {
+  margin: 0;
+}
+.main .listasordenadas2 {
+  list-style-type: none;
+  margin: 5px;
+  padding: 2px;
+  color: #E0E0E0;
+  font-size: 1rem;
+}
+.main .indexli .li a {
+  text-decoration: underline;
+  color: white;
+}
+.main .parrafosimportantes {
+  font-size: 2rem solid;
+  color: rgba(255, 217, 0, 0.6784313725);
+}
+.main .nofunca {
+  background: 100vh;
+}
+
+/*main 404*/
+.img404 {
+  width: 100%;
+  object-fit: cover;
+  color: black;
+}
+
+.text404 {
+  color: rgba(255, 217, 0, 0.6784313725);
+}
+
+.h1 {
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.colorgold {
+  color: #D4AF37;
+}
+
+.titulos {
+  color: #D4AF37;
+}
+
+.parrafos {
+  color: #E0E0E0;
+}
+
+.focus {
+  color: rgba(255, 217, 0, 0.6784313725);
+}
+
+.footer {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 21%, rgb(41, 41, 43) 69%, rgb(8, 9, 9) 100%);
+  height: 100%;
+}
+.footer .colorgold {
+  color: #D4AF37;
+}
+.footer .horarios {
+  font-size: 1rem;
+  border-bottom: 3px solid #D4AF37;
+}
+.footer .horarios .ubicacionmapeada {
+  width: 200px;
+  height: 200px;
+}
+.footer .usomixin {
+  display: flex;
+  flex-direction: column;
+}
+.footer .divicon .iconredes a i {
+  font-size: 1.5rem;
+  color: #D4AF37;
+  padding: 13px;
+  /* text-decoration: none;*/
+}
+.footer .divicon .iconredes a i:hover {
+  background-color: #000000;
+  border-radius: 10px; /*
+animation-name: resaltar;
+animation-duration: 2s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+transform: scaleY(1) translate (5px);*/
+}/*# sourceMappingURL=estilos.css.map */

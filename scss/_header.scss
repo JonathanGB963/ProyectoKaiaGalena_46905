@@ -1,0 +1,21 @@
+   .header{
+    .divnavegacion{background: rgb(0,0,0);
+      background: linear-gradient(90deg, rgba(0,0,0,1) 21%, rgba(41,41,43,1) 69%, rgba(8,9,9,1) 100%);
+      .logomarca{
+        height: 80px;
+        width: 80px;
+        border-radius: 60px;}
+      .navbar-nav{
+        .nav-item{
+          .nav-link{ color: map-get($mapa-colores,color-gold );
+            &:hover{ background-color: map-get($mapa-colores, color-hover);
+              border-radius: 6px; 
+              text-decoration-color: map-get($mapa-colores,color-gold );}
+            } 
+
+          }
+      }      
+    }
+
+   }
+   
