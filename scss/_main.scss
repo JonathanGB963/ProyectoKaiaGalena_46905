@@ -1,30 +1,34 @@
 .main{
-    .sectionimg{
-      
+  .colorgold{font-family:$tipografia-titulos;
+  font-size:$fuente-titulos;}
+    .sectionimg{     
       .imggaleria{
         img{
-          width:100%;
-          height:100%;
+          width: 150px;
+          height:150px;
           object-fit: cover;
           border-radius: 20px;
           &:hover{transform:translate(10px,30px) scalex(1.2)} ;
-          transition:transform 0.8s;}
-      }                          
+          transition:transform 0.8s;} }
+          .textimg{ color:map-get($mapa-colores,color-parrafo );}                         
     } 
-        .h2-color{
+            .h2-color{
             font-size: 1.2rem;
             text-align: center;
-            font-family:"Raleway", sans-serif; }
+            font-family:$tipografia-parrafos; }
             .parrafos{
                 color: map-get($mapa-colores,color-parrafo);
-                font-size:$fuente-parrafos; }
-                margin-bottom: 1rem;
+                font-family:$tipografia-parrafos;
+                margin-bottom: 0.5rem ;} 
                 .listasordenadas{
-                  margin: 0;
-                  padding: 0;
+                  li{ 
+                    margin: 0;
+                    padding: 0;
+                    font-family:$tipografia-parrafos;
+                    font-size: $fuente-parrafos;
+                  }
                   .li{margin: 0;}
-                    font-size:$fuente-parrafos;
-                    font-family:"Lato:ital"; 
+                    font-size:$fuente-parrafos; 
                     color:map-get($mapa-colores,color-parrafo );}
                     .listasordenadas2 {list-style-type: none;
                       margin:5px;
@@ -39,18 +43,32 @@
                         }
                     } 
                     .parrafosimportantes{
-                      font-size:$fuente-subtitulos;
+                      font-family:$fuente-subtitulos;
                       color: map-get($mapa-colores,color-focus ); 
-                     }         /* NO SE ESTA APLICANDO EN NOSOTROS"*/  
+                     } 
                      .nofunca{
-                      background: 100vh;
-                     }          
+                      background: 100vh;}   
+                      .botones{                            
+                      .brst{background-color:#ce2626;}
+                        .bst{background-color:map-get($mapa-colores,color-gold);} }
+
+                        .sectioncard{
+                          .card{
+                            width:100px;
+                            height: 100%; }
+
+                        }
 }
-/*main 404*/
+
 .img404{ 
+  margin: 0;
+  padding: 0;
   width: 100%;
   object-fit:cover;
-color: black;}
+  background-color:black;}
 .text404{
-  color: map-get($mapa-colores ,color-focus );
+  color: map-get($mapa-colores, color-gold );
+background-color:black;}
+.div404{
+  background-color:black;
 }

@@ -1,6 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,700;1,400;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans&display=swap");
 .body {
-  font-family: "Raleway, sans-serif";
   background: rgba(10, 10, 10, 0.9725490196);
 }
 
@@ -22,13 +21,13 @@
   text-decoration-color: #D4AF37;
 }
 
-.main {
-  margin-bottom: 1rem;
-  /* NO SE ESTA APLICANDO EN NOSOTROS"*/
+.main .colorgold {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem solid;
 }
 .main .sectionimg .imggaleria img {
-  width: 100%;
-  height: 100%;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border-radius: 20px;
   transition: transform 0.8s;
@@ -36,21 +35,28 @@
 .main .sectionimg .imggaleria img:hover {
   transform: translate(10px, 30px) scalex(1.2);
 }
+.main .sectionimg .textimg {
+  color: #E0E0E0;
+}
 .main .h2-color {
   font-size: 1.2rem;
   text-align: center;
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .main .parrafos {
   color: #E0E0E0;
-  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 0.5rem;
 }
 .main .listasordenadas {
+  font-size: 1rem;
+  color: #E0E0E0;
+}
+.main .listasordenadas li {
   margin: 0;
   padding: 0;
+  font-family: "Open Sans", sans-serif;
   font-size: 1rem;
-  font-family: "Lato:ital";
-  color: #E0E0E0;
 }
 .main .listasordenadas .li {
   margin: 0;
@@ -67,28 +73,44 @@
   color: white;
 }
 .main .parrafosimportantes {
-  font-size: 2rem solid;
+  font-family: 2rem solid;
   color: rgba(255, 217, 0, 0.6784313725);
 }
 .main .nofunca {
   background: 100vh;
 }
+.main .botones .brst {
+  background-color: #ce2626;
+}
+.main .botones .bst {
+  background-color: #D4AF37;
+}
+.main .sectioncard .card {
+  width: 100px;
+  height: 100%;
+}
 
-/*main 404*/
 .img404 {
+  margin: 0;
+  padding: 0;
   width: 100%;
   object-fit: cover;
-  color: black;
+  background-color: black;
 }
 
 .text404 {
-  color: rgba(255, 217, 0, 0.6784313725);
+  color: #D4AF37;
+  background-color: black;
+}
+
+.div404 {
+  background-color: black;
 }
 
 .h1 {
   font-size: 2rem;
   text-align: center;
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .colorgold {
@@ -135,10 +157,5 @@
 }
 .footer .divicon .iconredes a i:hover {
   background-color: #000000;
-  border-radius: 10px; /*
-animation-name: resaltar;
-animation-duration: 2s;
-animation-timing-function: ease-in-out;
-animation-iteration-count: infinite;
-transform: scaleY(1) translate (5px);*/
+  border-radius: 10px;
 }/*# sourceMappingURL=estilos.css.map */

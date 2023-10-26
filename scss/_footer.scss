@@ -19,12 +19,7 @@
                           padding: 13px;
                          /* text-decoration: none;*/
                         &:hover{background-color: map-get($mapa-colores,color-hover);
-                        border-radius: 10px;/*
-                        animation-name: resaltar;
-                        animation-duration: 2s;
-                        animation-timing-function: ease-in-out;
-                        animation-iteration-count: infinite;
-                        transform: scaleY(1) translate (5px);*/
+                        border-radius: 10px;
                       }
                       }
                   }
