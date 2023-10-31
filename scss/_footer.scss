@@ -11,13 +11,14 @@
           .usomixin{
             @include usomixin(column); }
           .divicon{
+            margin-top: 1rem;
               .iconredes{
                   a{
                       i{
                           font-size: 1.5rem;
                           color:map-get($mapa-colores , color-gold);
-                          padding: 13px;
-                         /* text-decoration: none;*/
+                          padding: 13px; 
+                          border-top: 100px;    /*ver que onda esto porque se desborda al border bottons */               
                         &:hover{background-color: map-get($mapa-colores,color-hover);
                         border-radius: 10px;
                       }

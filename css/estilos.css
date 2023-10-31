@@ -3,6 +3,10 @@
   background: rgba(10, 10, 10, 0.9725490196);
 }
 
+html {
+  overflow-x: hidden;
+}
+
 .header .divnavegacion {
   background: rgb(0, 0, 0);
   background: linear-gradient(90deg, rgb(0, 0, 0) 21%, rgb(41, 41, 43) 69%, rgb(8, 9, 9) 100%);
@@ -11,6 +15,7 @@
   height: 80px;
   width: 80px;
   border-radius: 60px;
+  margin-left: 35px;
 }
 .header .divnavegacion .navbar-nav .nav-item .nav-link {
   color: #D4AF37;
@@ -21,9 +26,44 @@
   text-decoration-color: #D4AF37;
 }
 
+.main {
+  overflow: hidden;
+}
 .main .colorgold {
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem solid;
+}
+.main .colorgold .icons {
+  color: #D4AF37;
+}
+.main .sectionindex .imgindex img {
+  width: 400px;
+  height: 250px;
+  border-radius: 100px;
+}
+.main .divcontacto {
+  /*
+  .botones{ 
+    margin-left: 23em;
+    background-position: right;
+    @media screen and (max-width: 500px){
+  background-position: left;
+    }
+  }*/
+}
+.main .divcontacto img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+.main .divcontacto .inputtype:focus {
+  border-color: #D4AF37;
+  outline: none;
+  border-radius: 15px;
+}
+.main .textoresaltado {
+  font-size: 1.5rem;
+  color: #D4AF37;
 }
 .main .sectionimg .imggaleria img {
   width: 150px;
@@ -79,15 +119,26 @@
 .main .nofunca {
   background: 100vh;
 }
-.main .botones .brst {
-  background-color: #ce2626;
+.main .botones {
+  background-position: left;
 }
-.main .botones .bst {
+.main .botones .botonesB {
+  background-color: rgba(20, 141, 202, 0.6823529412);
+  border-radius: 10px;
+  border-color: black;
+}
+.main .botones .botonesE {
   background-color: #D4AF37;
+  border-radius: 10px;
+  border-color: black;
 }
 .main .sectioncard .card {
   width: 100px;
   height: 100%;
+}
+
+.textodeconsulta {
+  margin-top: 10px;
 }
 
 .img404 {
@@ -125,8 +176,8 @@
   color: #E0E0E0;
 }
 
-.focus {
-  color: rgba(255, 217, 0, 0.6784313725);
+.remarcar {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .footer {
@@ -149,11 +200,14 @@
   display: flex;
   flex-direction: column;
 }
+.footer .divicon {
+  margin-top: 1rem;
+}
 .footer .divicon .iconredes a i {
   font-size: 1.5rem;
   color: #D4AF37;
   padding: 13px;
-  /* text-decoration: none;*/
+  border-top: 100px; /*ver que onda esto porque se desborda al border bottons */
 }
 .footer .divicon .iconredes a i:hover {
   background-color: #000000;

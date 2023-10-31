@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans&display=swap');
 .body{
-    background:map-get($mapa-colores, color-fondo)
+    background: map-get($mapa-colores, color-fondo)
+  }
+  html{
+    overflow-x: hidden;
   }
 
      

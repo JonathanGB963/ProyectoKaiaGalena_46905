@@ -9,4 +9,8 @@
 
    .titulos{color: map-get($mapa-colores,color-gold);}
    .parrafos{color: map-get($mapa-colores,color-parrafo );}
-   .focus{color: map-get($mapa-colores,color-focus);}
+   
+
+   .remarcar{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
